@@ -5,7 +5,8 @@ node_js:
 
 # 依赖安装
 install:
-  - npm ci
+  - npm install vuepress
+  - npm install
 
 # 构建脚本
 script:
