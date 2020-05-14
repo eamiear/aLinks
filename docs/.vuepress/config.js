@@ -55,7 +55,7 @@ module.exports = {
       }, {
         "title": "设计素材",
         "collapsable": true,
-        "children": ["/links/tuku", "/links/chuangyilinggan", "/links/tupianchuli", "/links/PPTmoban", "/links/tubiaoLogo", "/links/ziti", "/links/yinxiao"]
+        "children": ["/links/tuku", "/links/chuangyilinggan", "/links/tupianchuli", "/links/PPTmoban", "/links/tubiaoLogo", "/links/ziti", "/links/yinxiao", "/links/art"]
       }, {
         "title": "音乐读物",
         "collapsable": true,
@@ -64,6 +64,10 @@ module.exports = {
         "title": "学习提升",
         "collapsable": true,
         "children": ["/links/zonghexuexi", "/links/TED", "/links/yingyu", "/links/fanyi", "/links/wenku"]
+      }, {
+        "title": "网站工具",
+        "collapsable": true,
+        "children": ["/links/seo", "/links/youtube"]
       },
     ],
     // sidebar:{
