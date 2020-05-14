@@ -1,19 +1,11 @@
 language: node_js
 
 node_js:
-  - "10"
-
-# 缓存依赖
-cache:
-  directories:
-    - $HOME/.npm
-
-before_install:
-  - export TZ='Asia/Shanghai' # 更改时区
+  - lts/*
 
 # 依赖安装
 install:
-  - npm install
+  - npm ci
 
 # 构建脚本
 script:
