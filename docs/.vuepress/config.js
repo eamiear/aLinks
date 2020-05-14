@@ -35,37 +35,68 @@ module.exports = {
     logo: '/logo.png',
 
     // 侧边栏
-    sidebar:{
-      // 侧边栏分组
-      '/links/': [{
+    sidebar: [
+      {
         "title": "生活",
         "collapsable": true,
-        "children": ["changyong", "gouwu", "baizaoyin", "zhibo", "lvyou", "xinxi", "youxi", "paihangbang", "caijing"]
+        "children": ["/links/changyong", "/links/gouwu", "/links/baizaoyin", "/links/zhibo", "/links/lvyou", "/links/xinxi", "/links/youxi", "/links/paihangbang", "/links/caijing"]
       }, {
         "title": "影视",
         "collapsable": true,
-        "children": ["zaixian", "xiazai", "dongman", "meiju", "rihan", "jilupian", "zimu", "sucai"]
+        "children": ["/links/zaixian", "/links/xiazai", "/links/dongman", "/links/meiju", "/links/rihan", "/links/jilupian", "/links/zimu", "/links/sucai"]
       }, {
         "title": "搜索",
         "collapsable": true,
-        "children": ["changyongsousuo", "wangpansousuo", "yitusoutu", "shujusousuo"]
+        "children": ["/links/changyongsousuo", "/links/wangpansousuo", "/links/yitusoutu", "/links/shujusousuo"]
       }, {
         "title": "软件工具",
         "collapsable": true,
-        "children": ["jingpinruanjian", "wangpangongju", "zaixiangongju", "tupianchuli", "PDFgongju", "xiazaigongju", "tubiaobiaodan", "yurenjie", "zhanchanggongju"]
+        "children": ["/links/jingpinruanjian", "/links/wangpangongju", "/links/zaixiangongju", "/links/tupianchuli", "/links/PDFgongju", "/links/xiazaigongju", "/links/tubiaobiaodan", "/links/yurenjie", "/links/zhanchanggongju"]
       }, {
         "title": "设计素材",
         "collapsable": true,
-        "children": ["tuku", "chuangyilinggan", "tupianchuli", "PPTmoban", "tubiaoLogo", "ziti", "yinxiao"]
+        "children": ["/links/tuku", "/links/chuangyilinggan", "/links/tupianchuli", "/links/PPTmoban", "/links/tubiaoLogo", "/links/ziti", "/links/yinxiao"]
       }, {
         "title": "音乐读物",
         "collapsable": true,
-        "children": ["zaixianyinle", "yinleboke", "wusunMV", "kindle", "manhua", "wangluoxiaoshuo", "qitaduwu"]
+        "children": ["/links/zaixianyinle", "/links/yinleboke", "/links/wusunMV", "/links/kindle", "/links/manhua", "/links/wangluoxiaoshuo", "/links/qitaduwu"]
       }, {
         "title": "学习提升",
         "collapsable": true,
-        "children": ["zonghexuexi", "TED", "yingyu", "fanyi", "wenku"]
-      }]
-    }
+        "children": ["/links/zonghexuexi", "/links/TED", "/links/yingyu", "/links/fanyi", "/links/wenku"]
+      },
+    ],
+    // sidebar:{
+    //   // 侧边栏分组
+    //   '/links/': [{
+    //     "title": "生活",
+    //     "collapsable": true,
+    //     "children": ["/links/changyong", "/links/gouwu", "/links/baizaoyin", "/links/zhibo", "/links/lvyou", "/links/xinxi", "/links/youxi", "/links/paihangbang", "/links/caijing"]
+    //   }, {
+    //     "title": "影视",
+    //     "collapsable": true,
+    //     "children": ["/links/zaixian", "/links/xiazai", "/links/dongman", "/links/meiju", "/links/rihan", "/links/jilupian", "/links/zimu", "/links/sucai"]
+    //   }, {
+    //     "title": "搜索",
+    //     "collapsable": true,
+    //     "children": ["/links/changyongsousuo", "/links/wangpansousuo", "/links/yitusoutu", "/links/shujusousuo"]
+    //   }, {
+    //     "title": "软件工具",
+    //     "collapsable": true,
+    //     "children": ["/links/jingpinruanjian", "/links/wangpangongju", "/links/zaixiangongju", "/links/tupianchuli", "/links/PDFgongju", "/links/xiazaigongju", "/links/tubiaobiaodan", "/links/yurenjie", "/links/zhanchanggongju"]
+    //   }, {
+    //     "title": "设计素材",
+    //     "collapsable": true,
+    //     "children": ["/links/tuku", "/links/chuangyilinggan", "/links/tupianchuli", "/links/PPTmoban", "/links/tubiaoLogo", "/links/ziti", "/links/yinxiao"]
+    //   }, {
+    //     "title": "音乐读物",
+    //     "collapsable": true,
+    //     "children": ["/links/zaixianyinle", "/links/yinleboke", "/links/wusunMV", "/links/kindle", "/links/manhua", "/links/wangluoxiaoshuo", "/links/qitaduwu"]
+    //   }, {
+    //     "title": "学习提升",
+    //     "collapsable": true,
+    //     "children": ["/links/zonghexuexi", "/links/TED", "/links/yingyu", "/links/fanyi", "/links/wenku"]
+    //   }]
+    // }
   }
 }
