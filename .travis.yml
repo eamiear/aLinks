@@ -3,14 +3,23 @@ language: node_js
 node_js:
   - lts/*
 
+# 缓存依赖
+cache:
+  directories:
+    - $HOME/.npm
+
+before_install:
+  - export TZ='Asia/Shanghai' # 更改时区
+
 # 依赖安装
 install:
-  - yarn install
+  - npm install vuepress -g
+  - npm install
 
 # 构建脚本
 script:
     # 自定义输出目录
-  - yarn docs:build
+  - npm run docs:build
 
 # 分支白名单
 branches:
