@@ -5,13 +5,12 @@ node_js:
 
 # 依赖安装
 install:
-  - npm install vuepress
-  - npm install
+  - yarn install
 
 # 构建脚本
 script:
     # 自定义输出目录
-  - npm run docs:build
+  - yarn docs:build
 
 # 分支白名单
 branches:
