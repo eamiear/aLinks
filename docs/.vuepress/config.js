@@ -67,7 +67,7 @@ module.exports = {
       }, {
         "title": "网站工具",
         "collapsable": true,
-        "children": ["/links/seo", "/links/youtube"]
+        "children": ["/links/seo", "/links/youtube", "/links/website/wangzhanpeise"]
       },
     ],
     // sidebar:{
