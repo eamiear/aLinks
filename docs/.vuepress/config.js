@@ -55,7 +55,7 @@ module.exports = {
       }, {
         "title": "设计素材",
         "collapsable": true,
-        "children": ["/links/tuku", "/links/chuangyilinggan", "/links/tupianchuli", "/links/PPTmoban", "/links/tubiaoLogo", "/links/ziti", "/links/yinxiao", "/links/art"]
+        "children": ["/links/tuku", "/links/chuangyilinggan", "/links/tupianchuli", "/links/PPTmoban", "/links/tubiaoLogo", "/links/ziti", "/links/yinxiao", "/links/art", "/links/design/shejimuban"]
       }, {
         "title": "音乐读物",
         "collapsable": true,
